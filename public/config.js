@@ -1,10 +1,11 @@
 window.__RUNTIME_CONFIG__ = {
   "VITE_ORDERLY_BROKER_ID": "berrie",
   "VITE_ORDERLY_BROKER_NAME": "BERRIE",
+  "VITE_BROKER_EOA_ADDRESS": "0x72eb00c80228d31ce2b5e11ba47fec6c1f940fc9",
   "VITE_DISABLE_MAINNET": "false",
   "VITE_DISABLE_TESTNET": "false",
-  "VITE_ORDERLY_MAINNET_CHAINS": "42161,10,8453,1,56,900900900",
-  "VITE_ORDERLY_TESTNET_CHAINS": "421614,84532,97,901901901,11124",
+  "VITE_ORDERLY_MAINNET_CHAINS": "42161,10,8453,5000,1,56,1329,43114,900900900,2818,146,80094,1514,34443,98866,2741,143",
+  "VITE_ORDERLY_TESTNET_CHAINS": "421614,97,10143,11124,901901901",
   "VITE_DEFAULT_CHAIN": "",
   "VITE_PRIVY_APP_ID": "",
   "VITE_PRIVY_LOGIN_METHODS": "email",
@@ -18,7 +19,8 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Portfolio",
-  "VITE_CUSTOM_MENUS": "Spot, https://dex.berr.ie/; Swap, https://swap.berr.ie/; Staking, https://staking.berr.ie/",
+  "VITE_CUSTOM_MENUS": "Swap, https://berr.ie/swap?buyBerrie=true; Staking, https://berr.ie/staking",
+  "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "false",
   "VITE_ENABLE_CAMPAIGNS": "false",
   "VITE_TELEGRAM_URL": "https://t.me/BerrieFarm",
   "VITE_DISCORD_URL": "https://discord.gg/fHemmWRMyh",
@@ -34,5 +36,9 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_AVAILABLE_LANGUAGES": "en,zh,ja,es,ko,vi,de,fr,ru,id,tr,it,pt,uk,pl,nl",
   "VITE_USE_CUSTOM_PNL_POSTERS": "true",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "1",
-  "VITE_TRADING_VIEW_COLOR_CONFIG": ""
+  "VITE_TRADING_VIEW_COLOR_CONFIG": "",
+  "VITE_ANALYTICS_SCRIPT": "",
+  "VITE_SYMBOL_LIST": "",
+  "VITE_RESTRICTED_REGIONS": "",
+  "VITE_WHITELISTED_IPS": ""
 };
