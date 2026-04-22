@@ -18,7 +18,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_APP_DESCRIPTION": "Orderly Trading Application",
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "true",
-  "VITE_ENABLED_MENUS": "Trading,Portfolio",
+  "VITE_ENABLED_MENUS": "Trading,Portfolio,Campaigns",
   "VITE_CUSTOM_MENUS": "Home, https://berr.ie/; Swap, https://berr.ie/swap?buyBerrie=true; Staking, https://berr.ie/staking; Wiki, https://berr.ie/wiki; Stats, https://berr.ie/stats",
   "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "true",
   "VITE_ENABLE_CAMPAIGNS": "false",
